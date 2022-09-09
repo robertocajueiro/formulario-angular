@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'formulario';
 
   profissoes = ['Programador', 'Empresário', 'Outra'];
+  profissao = 'Outra';
 
   salvar(form: NgForm){
     console.log(form);
