@@ -17,14 +17,14 @@ export class AppComponent {
   cliente = new Cliente();
 
   profissoes = ['Programador', 'Empresário', 'Outra'];
-  profissao = 'Outra';
+  profissao = 'Selecione';
 
   salvar(form: NgForm){
     //this.cliente.nome = form.value.primeiroNome;
     //this.cliente.email = form.value.emailAddress;
     //this.cliente.profissao = form.value.profissao;
 
-    console.log(form.value);
+    console.log(form);
     console.log(this.cliente)
   }
 }
